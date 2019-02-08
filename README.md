@@ -1,3 +1,6 @@
+TO CONTINUE... 47. Navigating on Successful Mutation
+(last done was the 46)
+
 # Lyrical-GraphQL
 Starter project from a GraphQL course on Udemy.com
 
@@ -33,6 +36,23 @@ mutation {
 #### query04 get the title from each song
 {
   songs {
+    title
+  }
+}
+
+#### query05 add a song
+mutation {
+  addSong(title: "Dog Call!!") {
+    id
+    title
+  }
+}
+
+#### query06 adding a song using query variables
+#### - query variable: { "title": "I am using the query variables" }
+mutation AddSong($title: String) {
+  addSong(title: $title) {
+    id
     title
   }
 }
