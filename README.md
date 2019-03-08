@@ -1,11 +1,10 @@
-TO CONTINUE... 47. Navigating on Successful Mutation
-(last done was the 46)
+TO CONTINUE... 76. App Challenges
 
 # Lyrical-GraphQL
 Starter project from a GraphQL course on Udemy.com
 
 ## links
-#### server
+#### client (two routes)
 http://localhost:4000/#/
 http://localhost:4000/#/song/new
 
