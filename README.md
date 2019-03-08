@@ -5,7 +5,7 @@ TO CONTINUE... 47. Navigating on Successful Mutation
 Starter project from a GraphQL course on Udemy.com
 
 ## links
-#### server
+#### client (two routes)
 http://localhost:4000/#/
 http://localhost:4000/#/song/new
 
