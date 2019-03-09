@@ -14,6 +14,30 @@ http://localhost:4000/graphql
 #### mongoDB
 https://mlab.com/databases/lyricaldb/
 
+
+## Deploy in Heroku
+Login:
+> heroku login
+
+Create new project:
+> heroku create
+
+Change default domain:
+> heroku apps:rename app-react-redux-supersquad
+
+Check for the remote branchs
+> git remote -v
+
+Check logs 
+> heroku logs
+
+Deploy code (when I am still in my branch):
+> git push origin HEAD:master
+
+> yarn install
+
+> git push heroku master
+
 ## queries
 #### query01 add a song
 mutation {
