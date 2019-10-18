@@ -8,7 +8,10 @@
     "url": "https://github.com/StephenGrider/Lyrical-GraphQL"
   },
   "scripts": {
-    "start": "nodemon index.js --ignore client"
+    "start": "nodemon index.js --ignore client",
+    "build:app": "webpack --color --progress --config ./webpack.config.js",
+    "upload": "aws s3 cp ./dist s3://fuse-tech-labs/graphQLClientServer --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers --recursive",
+    "release": "yarn build:app && yarn upload"
   },
   "author": "",
   "license": "ISC",

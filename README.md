@@ -13,7 +13,9 @@ It handles content related with songs and lyrics. With the ability to add or del
 In more detail:
 - `server node graphQL`: is where we are modeling the songs and lyrics using mongoDB. We have the schema where we have graphQL type objects, queries and mutations to get and change data from the database.
 - `mongoDB`: I am using mLab where I created a database so it hosted in a way that is more similar to a production environment instead of hosting it locally.
-- `client react web app`: there is no redux layer in this project. To make the project look decent with minimal effort I am using material design (because that wasn't the focus of it). The connects to the server using a provider called Apollo.. 
+- `client react web app`: there is no redux layer in this project. To make the project look decent with minimal effort I am using material design (because that wasn't the focus of it). The connects to the server using a provider called Apollo...
+
+Doc in Fuse internal: https://fuse.fuseuniversal.com/communities/3286/contents/195149
 
 ## links
 
